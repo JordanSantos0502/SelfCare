@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+header{
+    height: 50vh;
+}
+.headerLogin{
+    display: flex;
+    border: solid red;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+}
+h2{
+    width: 20%;
+    text-align: center;
+}
+.headerIcons{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+.headerIcons img{
+    width: 6%;
+}
+.banner img{
+    width: 100%;
+}
